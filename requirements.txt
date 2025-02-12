@@ -1,0 +1,11 @@
+numpy
+pandas
+scipy
+matplotlib
+seaborn
+astropy
+astroquery
+scikit-learn
+tensorflow
+plotly
+requests

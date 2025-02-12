@@ -1,0 +1,33 @@
+{
+  "Direct API Access": {
+    "challenges": [
+      "Requires specialized authentication",
+      "Complex query parameters",
+      "Bandwidth and rate limitations"
+    ],
+    "recommended_steps": [
+      "Register for NASA API key",
+      "Review API documentation",
+      "Implement robust error handling"
+    ]
+  },
+  "Academic Access": {
+    "requirements": [
+      "Institutional email",
+      "Research proposal",
+      "Data usage justification"
+    ],
+    "benefits": [
+      "Comprehensive dataset access",
+      "Latest astronomical data",
+      "Direct support from NASA"
+    ]
+  },
+  "Public Data Portals": {
+    "options": [
+      "NASA Exoplanet Archive Web Interface",
+      "Downloadable CSV/VOTable formats",
+      "Limited but accessible datasets"
+    ]
+  }
+}

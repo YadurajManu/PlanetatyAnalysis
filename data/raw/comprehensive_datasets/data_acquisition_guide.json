@@ -1,0 +1,46 @@
+{
+  "data_sources": {
+    "exoplanet_datasets": [
+      {
+        "name": "Kaggle Exoplanet Dataset",
+        "url": "https://www.kaggle.com/datasets/keplersmachines/kepler-labelled-time-series-data/download",
+        "type": "download"
+      },
+      {
+        "name": "NASA Exoplanet Archive (Manual Download)",
+        "url": "https://exoplanetarchive.ipac.caltech.edu/cgi-bin/TblView/nph-tblView?app=ExoTbls&config=*",
+        "type": "manual"
+      }
+    ],
+    "stellar_datasets": [
+      {
+        "name": "Harvard Dataverse Stellar Catalog",
+        "url": "https://dataverse.harvard.edu/api/access/datafiles/4776828",
+        "type": "download"
+      },
+      {
+        "name": "Gaia DR3 Public Release",
+        "url": "https://gea.esac.esa.int/archive/",
+        "type": "manual"
+      }
+    ]
+  },
+  "recommended_steps": [
+    "Check data usage permissions",
+    "Verify dataset compatibility",
+    "Validate data integrity",
+    "Cite original sources"
+  ],
+  "access_methods": {
+    "public_repositories": [
+      "Kaggle",
+      "Harvard Dataverse",
+      "Zenodo"
+    ],
+    "institutional_access": [
+      "NASA",
+      "ESA",
+      "Academic Research Centers"
+    ]
+  }
+}

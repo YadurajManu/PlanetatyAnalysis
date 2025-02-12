@@ -1,0 +1,15 @@
+{
+  "timestamp": "2024-12-30T12:21:42.138599",
+  "dataset_summary": {
+    "stellar_databases": {
+      "total_records": 25,
+      "columns": [
+        "<html><head><title>TAP+ HOME PAGE</title></head><body><h1 style=\"text-align: center\">TAP+ HOME PAGE</h1>",
+        "data_source"
+      ],
+      "data_sources": [
+        "Gaia DR3"
+      ]
+    }
+  }
+}

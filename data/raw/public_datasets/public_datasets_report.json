@@ -1,0 +1,35 @@
+{
+  "total_datasets": 2,
+  "datasets": [
+    {
+      "name": "Gaia DR3 Public Sample",
+      "url": "https://gea.esac.esa.int/archive/documentation/",
+      "sample_url": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&QUERY=SELECT+TOP+1000+source_id,ra,dec,parallax,pmra,pmdec+FROM+gaiadr3.gaia_source&FORMAT=csv",
+      "description": "Stellar positions, parallax, and proper motion data",
+      "sample_records": 1000,
+      "columns": [
+        "source_id",
+        "ra",
+        "dec",
+        "parallax",
+        "pmra",
+        "pmdec"
+      ]
+    },
+    {
+      "name": "SIMBAD Astronomical Database Sample",
+      "url": "http://simbad.u-strasbg.fr/simbad/",
+      "sample_url": "http://simbad.u-strasbg.fr/simbad/sim-tap",
+      "description": "Astronomical objects database with cross-identifications",
+      "sample_records": 80,
+      "columns": [
+        "<html>"
+      ]
+    }
+  ],
+  "recommendations": [
+    "Verify data usage rights",
+    "Check for latest updates",
+    "Consider academic access for full datasets"
+  ]
+}

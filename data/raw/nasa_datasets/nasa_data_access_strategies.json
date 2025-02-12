@@ -1,0 +1,26 @@
+{
+  "Public Data Access": {
+    "methods": [
+      "NASA Open Data Portals",
+      "Public API Endpoints",
+      "NASA Data Repositories"
+    ],
+    "requirements": [
+      "Internet Connection",
+      "Basic Programming Skills",
+      "Data Processing Tools"
+    ]
+  },
+  "Academic/Research Access": {
+    "methods": [
+      "NASA Data Request Portal",
+      "Institutional Collaboration",
+      "Research Grant Applications"
+    ],
+    "requirements": [
+      "Institutional Email",
+      "Research Proposal",
+      "Academic Affiliation"
+    ]
+  }
+}

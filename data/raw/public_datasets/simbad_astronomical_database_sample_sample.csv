@@ -1,0 +1,82 @@
+<html>
+	
+<head>
+ <!-- Include the CSS stylesheet for the CDS navbar and footer: -->
+<link href="/cds-navbar-resources/css/cdsnavbar.min.css" rel="stylesheet">
+<!-- Include OpenSearch engines for CDS services: -->
+<link title="SIMBAD" rel="search" type="application/opensearchdescription+xml" href="/cds-navbar-resources/opensearch/simbad.xml">
+<link title="VizieR" rel="search" type="application/opensearchdescription+xml" href="/cds-navbar-resources/opensearch/vizier.xml">
+<link title="Aladin" rel="search" type="application/opensearchdescription+xml" href="/cds-navbar-resources/opensearch/aladin.xml">
+<link title="XMatch" rel="search" type="application/opensearchdescription+xml" href="/cds-navbar-resources/opensearch/xmatch.xml">		<link rel='stylesheet' href='/simbad/css/tap/jquery-ui-simbad.css' />		<link rel='stylesheet' href='/simbad/css/tap/LoginWidget.css' />		<link rel='stylesheet' href='/simbad/css/tap/menu.css' />		<link rel='stylesheet' href='/simbad/css/tap/dataTable.css' />		<link rel='stylesheet' href='/simbad/css/tap/simbadtap.css' />		<link rel='stylesheet' href='/simbad/css/tap/codemirror/codemirror.css' />		<link rel='stylesheet' href='/simbad/css/tap/codemirror/adql.css' />		<script type='text/javascript' src='/simbad/Simlib/jquery.min.js'></script>		<script type='text/javascript' src='/simbad/Simlib/jquery-ui.js'></script>		<script type='text/javascript' src='/simbad/js/tap//LoginWidget.js' charset='utf-8'></script>		<script type='text/javascript' src='/simbad/js/tap//jquery.iframe-transport.js'></script>		<script type='text/javascript' src='/simbad/js/tap//menu.js'></script>		<script type='text/javascript' src='/simbad/js/tap//jquery.dataTables.min.js'></script>		<script type='text/javascript' src='/simbad/js/tap//tap.js'></script>		<script type='text/javascript' src='/simbad/js/tap//tapDateFormat.js'></script>		<script type='text/javascript' src='/simbad/js/tap//simbadtap.js'></script>		<script type='text/javascript' src='/simbad/js/tap//simbadtap_init.js'></script>		<script type='text/javascript' src='/simbad/js/tap//codemirror/codemirror.js'></script>		<script type='text/javascript' src='/simbad/js/tap//codemirror/adql.js'></script><TITLE itemprop='name'>Simbad: TAP Service</TITLE></head>
+<body>
+ <!--
+-- #######################################################################
+-- #                                                                     #
+-- #                   CDS TOP NAVIGATION BAR                            #
+-- #                                                                     #
+-- #######################################################################
+-->
+<nav class="cds-menu for-simbad" role="menubar" aria-label="CDS services navigation" data-pagefind-ignore>
+<!-- HEADER: CDS WEBSITE LINK -->
+<header><a href="https://cds.unistra.fr" role="menuitem" aria-label="CDS website"></a></header>
+<!-- MENU CONTENT -->
+<ul role="menu" aria-label="CDS services">
+<!-- List of all services (collapsed on very small screens) -->
+<li class="is-collapsed-when-very-small" role="none">
+<!-- Trigger for showing the menu on very small screens -->
+<span class="menu-trigger for-all-services" tabindex="0" onclick="void(0)" role="menuitem" aria-label="List CDS services and more" aria-haspopup="true" aria-expanded="false"><span>Services</span></span>
+<!-- CDS main services -->
+<ul role="menu" aria-label="CDS main services">
+<li role="none"><a class="portal" href="http://cdsportal.u-strasbg.fr"  role="menuitem" aria-label="CDS Portal"><span></span></a></li>
+<li role="none"><a class="simbad" href="http://simbad.cds.unistra.fr/simbad"      role="menuitem" aria-label="Simbad"><span></span></a></li>
+<li role="none"><a class="vizier" href="https://vizier.cds.unistra.fr/viz-bin/VizieR"         role="menuitem" aria-label="VizieR"><span></span></a></li>
+<li role="none"><a class="aladin" href="http://aladin.cds.unistra.fr/aladin.gml"     role="menuitem" aria-label="Aladin"><span></span></a></li>
+<li role="none"><a class="xmatch" href="http://cdsxmatch.u-strasbg.fr"  role="menuitem" aria-label="X-Match"><span></span></a></li>
+<!-- SUB-MENU: Other CDS services -->
+<li role="none">
+<!-- Trigger for showing the sub-menu -->
+<a class="menu-trigger for-other-services" tabindex="0" onclick="void(0)" role="menuitem" aria-label="Other resources" aria-haspopup="true">Others</a>
+<!-- Sub-menu itself -->
+<ul role="menu" aria-label="Other resources">
+<li role="none"><a href="https://cds.unistra.fr/cgi-bin/Sesame" role="menuitem" aria-label="Sesame name resolver">Sesame name resolver</a></li>
+<li role="none"><a href="https://cds.unistra.fr/cgi-bin/Dic-Simbad"            role="menuitem" aria-label="Dictionary of nomenclature">Dictionary of nomenclature</a></li>
+<li role="separator" class="divider" aria-hidden="true"></li>
+<!-- Link: email CDS-Question-->
+<li role="none"><a href="mailto:cds-question@unistra.fr" tabindex="0" role="menuitem" aria-label="Contact us">Contact us</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<!-- Link: CDS help resources -->
+<li role="none"><a class="help" href="https://cds.unistra.fr/help" role="menuitem" aria-label="Help resources"><span>Help</span></a></li>
+</ul>
+</nav>
+<div class="cdsPageTitle"><h1>Simbad: TAP Service</h1></div><div style="margin: 10px">
+<div id='CDSmain'>
+<div id='loginDiv'><div id='CDSLoginWidget'></div></div>
+<div id='serviceDescription'></div>
+<div id='menu'></div>
+<div id='content'>
+	<div id='tapService'></div>
+</div>
+<ul id='tapResources'>
+	<li><a href='/simbad/sim-tap/tables' title='Lists all queriable tables and columns.'>List of tables (in XML)</a></li>
+	<li><a href='/simbad/sim-tap/capabilities' title='Describes this TAP service.'>Capabilities</a></li>
+	<li><a href='/simbad/sim-tap/availability' title='Tells whether TAP is available or not.'>Availabity</a></li>
+	<li><a href='/simbad/sim-tap/async' title='Lets executing and managing a list of queries.'>ASynchronous query resource</a></li>
+	<li><a href='/simbad/sim-tap/sync' title='Lets executing one query and getting its result immediately.'>Synchronous query resource</a></li>
+</ul>
+</div>
+		<div id='CDStail'>
+			<HR noshade='noshade' style='clear: both' />
+			<TABLE width='97%'> 
+				<TR>
+					<TD ALIGN='LEFT'>&copy;UDS/CNRS - <A HREF='http://cdsweb.u-strasbg.fr/' TARGET='_top'> <I><B>C</B>entre de <B>D</B>onn&eacute;es astronomiques de <B>S</B>trasbourg</I></A></TD>
+					<TD ALIGN='RIGHT'><A HREF='mailto:cds-question@unistra.fr?Subject=SimbadTap'>
+						<IMG SRC='/simbad/images/envelop1.gif' ALIGN='middle' border='0' ALT='cds-question@unistra.fr'></A>
+					</TD>
+				</TR>
+			</TABLE>
+		</div>
+	</body>
+</html>

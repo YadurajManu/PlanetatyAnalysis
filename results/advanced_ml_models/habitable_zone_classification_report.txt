@@ -1,0 +1,12 @@
+Best Parameters: {'classifier__learning_rate': 0.1, 'classifier__max_depth': 4, 'classifier__n_estimators': 100}
+
+Accuracy: 54.00%
+
+              precision    recall  f1-score   support
+
+       False       0.55      0.37      0.44        49
+        True       0.54      0.71      0.61        51
+
+    accuracy                           0.54       100
+   macro avg       0.54      0.54      0.52       100
+weighted avg       0.54      0.54      0.53       100

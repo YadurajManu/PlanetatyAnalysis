@@ -1,0 +1,25 @@
+{
+  "total_sources": 3,
+  "sources": [
+    {
+      "name": "NASA Exoplanet Archive",
+      "description": "Comprehensive exoplanet catalog",
+      "method": "public_api"
+    },
+    {
+      "name": "Gaia DR3 Public Release",
+      "description": "Stellar position and motion data",
+      "method": "public_download"
+    },
+    {
+      "name": "Open Exoplanet Catalogue",
+      "description": "Community-maintained exoplanet database",
+      "method": "github_repository"
+    }
+  ],
+  "recommendations": [
+    "Contact institutional repositories",
+    "Request academic access",
+    "Explore collaborative research platforms"
+  ]
+}

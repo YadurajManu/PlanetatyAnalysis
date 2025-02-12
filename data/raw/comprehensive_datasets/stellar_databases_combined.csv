@@ -1,0 +1,26 @@
+"<html><head><title>TAP+ HOME PAGE</title></head><body><h1 style=""text-align: center"">TAP+ HOME PAGE</h1>",data_source
+"<h3 style=""text-align: center"">Version: 9.11.0</h3>",Gaia DR3
+<h2>Available resources:</h2>,Gaia DR3
+<ul>,Gaia DR3
+"<li><a href=""https://gea.esac.esa.int/tap-server/tap/jobs"">jobs</a></li>",Gaia DR3
+"<li><a href=""https://gea.esac.esa.int/tap-server/tap/capabilities"">capabilities</a></li>",Gaia DR3
+"<li><a href=""https://gea.esac.esa.int/tap-server/tap/functions"">functions</a></li>",Gaia DR3
+"<li><a href=""https://gea.esac.esa.int/tap-server/tap/session"">session</a></li>",Gaia DR3
+"<li><a href=""https://gea.esac.esa.int/tap-server/tap/sync"">sync</a></li>",Gaia DR3
+"<li><a href=""https://gea.esac.esa.int/tap-server/tap/async"">async</a></li>",Gaia DR3
+"<li><a href=""https://gea.esac.esa.int/tap-server/tap/admin"">admin</a></li>",Gaia DR3
+"<li><a href=""https://gea.esac.esa.int/tap-server/tap/availability"">availability</a></li>",Gaia DR3
+"<li><a href=""https://gea.esac.esa.int/tap-server/tap/users"">users</a></li>",Gaia DR3
+"<li><a href=""https://gea.esac.esa.int/tap-server/tap/scheduler"">scheduler</a></li>",Gaia DR3
+"<li><a href=""https://gea.esac.esa.int/tap-server/tap/notification"">notification</a></li>",Gaia DR3
+"<li><a href=""https://gea.esac.esa.int/tap-server/tap/tables"">tables</a></li>",Gaia DR3
+"<li><a href=""https://gea.esac.esa.int/tap-server/tap/examples"">examples</a></li>",Gaia DR3
+"<li><a href=""https://gea.esac.esa.int/tap-server/tap/stats"">stats</a></li>",Gaia DR3
+"<li><a href=""https://gea.esac.esa.int/tap-server/tap/deletejobs"">deletejobs</a></li>",Gaia DR3
+"<li><a href=""https://gea.esac.esa.int/tap-server/tap/schemas"">schemas</a></li>",Gaia DR3
+"<li><a href=""https://gea.esac.esa.int/tap-server/tap/glots"">glots</a></li>",Gaia DR3
+"<li><a href=""https://gea.esac.esa.int/tap-server/tap/share"">share</a></li>",Gaia DR3
+"<li><a href=""https://gea.esac.esa.int/tap-server/tap/event"">event</a></li>",Gaia DR3
+"<li><a href=""https://gea.esac.esa.int/tap-server/tap/tasks"">tasks</a></li>",Gaia DR3
+</ul>,Gaia DR3
+</body></html>,Gaia DR3
